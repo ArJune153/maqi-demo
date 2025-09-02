@@ -14,7 +14,15 @@ export default {
   name: 'App',
   components: {
     Home
-  }
+  },
+  head: {
+       link: [
+             {
+                 rel: "icon",
+                 href: require("./assets/logo-mini.png")
+             },
+          ]
+       }
 }
 </script>
 

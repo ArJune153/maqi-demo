@@ -48,7 +48,7 @@ export default {
   background-image: url('/src/assets/bg-green.jpg'); 
   background-size: cover;
   background-position: center;
-  filter: blur(50px); 
+  filter: blur(30px); 
   z-index: -1;
 }
 
